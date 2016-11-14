@@ -1,0 +1,14 @@
+PODS:
+  - GXHUserDefaults (1.0.0)
+
+DEPENDENCIES:
+  - GXHUserDefaults (from `../`)
+
+EXTERNAL SOURCES:
+  GXHUserDefaults:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GXHUserDefaults: 88d651638b7a24509dcef6563221ab3363ff30b9
+
+COCOAPODS: 0.39.0

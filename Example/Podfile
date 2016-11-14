@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'GXHUserDefaults_Example' do
+  pod 'GXHUserDefaults', :path => '../'
+end
