@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'EA8A8D3F75157CFE09B6D30C'
+               BlueprintIdentifier = '2F3303177A035B8FD5BC1E20'
                BlueprintName = 'GXHUserDefaults'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'GXHUserDefaults.framework'>
