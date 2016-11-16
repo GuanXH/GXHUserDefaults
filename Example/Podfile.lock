@@ -2,15 +2,15 @@ PODS:
   - GXHUserDefaults (1.0.0)
 
 DEPENDENCIES:
-  - GXHUserDefaults (from `../`)
+  - GXHUserDefaults (from `../GXHUserDefaults.podspec`)
 
 EXTERNAL SOURCES:
   GXHUserDefaults:
-    :path: "../"
+    :podspec: "../GXHUserDefaults.podspec"
 
 SPEC CHECKSUMS:
   GXHUserDefaults: 88d651638b7a24509dcef6563221ab3363ff30b9
 
-PODFILE CHECKSUM: 72271cfe979d07de7d4f2e9c496726aba9a60606
+PODFILE CHECKSUM: a600198a40b0658590f45b268d86b92655e51225
 
 COCOAPODS: 1.1.1

@@ -1,5 +1,6 @@
 use_frameworks!
-
+platform :ios, '7.0'
 target 'GXHUserDefaults_Example' do
-  pod 'GXHUserDefaults', :path => '../'
+    #pod 'GXHUserDefaults', :path => '../GXHUserDefaults'
+  pod 'GXHUserDefaults', :podspec => '../GXHUserDefaults.podspec'
 end

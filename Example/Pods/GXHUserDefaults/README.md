@@ -1,6 +1,6 @@
 # GXHUserDefaults
 快捷使用NSUserDefaults  支持.语法  支持多用户切换
-###  使用方法(pod 'GXHUserDefaults', '~> 1.0.0' 或者https://github.com/GuanXH/GXHUserDefaults下载)
+###  使用方法(pod 'ReactiveCocoa', '~> 2.3.1' 或者下载)
 创建一个GXHUserDefaults的category  添加相关属性
 .m文件中 @dynamic 相关属性
 例如：

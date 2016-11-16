@@ -22,7 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		C0AA571F530A32521B64C975 /* Pods_GXHUserDefaults_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7520C0B6B3C48DC4D6F1E8A /* Pods_GXHUserDefaults_Example.framework */; };
+		9CE800BF8682EF066CAB655E /* Pods_GXHUserDefaults_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7520C0B6B3C48DC4D6F1E8A /* Pods_GXHUserDefaults_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,7 +74,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				C0AA571F530A32521B64C975 /* Pods_GXHUserDefaults_Example.framework in Frameworks */,
+				9CE800BF8682EF066CAB655E /* Pods_GXHUserDefaults_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,12 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "GXHUserDefaults_Example" */;
 			buildPhases = (
-				D674A1A443C420E2401BBB84 /* [CP] Check Pods Manifest.lock */,
+				9D6B2F2FC2B4880046FF7217 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				3EAFDF10AAA50988C5FA1544 /* [CP] Embed Pods Frameworks */,
-				D9181271A9D87677F1C88100 /* [CP] Copy Pods Resources */,
+				301382E04F690DCA6913A506 /* [CP] Embed Pods Frameworks */,
+				35385899EA375DCCED87B9C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -287,7 +287,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3EAFDF10AAA50988C5FA1544 /* [CP] Embed Pods Frameworks */ = {
+		301382E04F690DCA6913A506 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -302,22 +302,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GXHUserDefaults_Example/Pods-GXHUserDefaults_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D674A1A443C420E2401BBB84 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		D9181271A9D87677F1C88100 /* [CP] Copy Pods Resources */ = {
+		35385899EA375DCCED87B9C1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -330,6 +315,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GXHUserDefaults_Example/Pods-GXHUserDefaults_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D6B2F2FC2B4880046FF7217 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -466,6 +466,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GXHUserDefaults/GXHUserDefaults-Prefix.pch";
 				INFOPLIST_FILE = "GXHUserDefaults/GXHUserDefaults-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +483,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GXHUserDefaults/GXHUserDefaults-Prefix.pch";
 				INFOPLIST_FILE = "GXHUserDefaults/GXHUserDefaults-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

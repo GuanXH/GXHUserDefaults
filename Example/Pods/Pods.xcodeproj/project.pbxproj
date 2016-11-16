@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27B0F14B8E9FEC79FD81C7DF379DEAC3 /* GXHUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 730648AE1088DCB9749379FE14E80C19 /* GXHUserDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B8804C2D29A1D87902596BA46C3885E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
-		58E22608D0CC78873CDBE97A5AA58FAC /* GXHUserDefaults-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48430C0F3E25C3A1E69358DFAB74DC67 /* GXHUserDefaults-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6869E47B7E31A415871DE4D5DF1F2841 /* GXHUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECC554FB604B90732FB0496C365F3C4 /* GXHUserDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		821A2BCD78DF3514EC20030DFB1C3020 /* GXHUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBB77F070F18A5762D8697193846DCB /* GXHUserDefaults.m */; };
+		8139AEA02494FABEC54659A98CA98C0E /* GXHUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AE478868ACFB5312D729065F789286 /* GXHUserDefaults.m */; };
 		8E7B69E35DE0E28A84ECC324C6BACE36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */; };
-		98DFA321984E705F07E26E42434335E7 /* GXHUserDefaults-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9936F3081D588350F82713B82DE71ACD /* GXHUserDefaults-dummy.m */; };
+		CF88AE5E5DB507853FC254E16A513A6B /* GXHUserDefaults-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D91F13288B72D0D5EA8BC5E8F196D /* GXHUserDefaults-dummy.m */; };
 		DB89E16D0C4A3856B77503EF1D198DC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		E14C3D2F63ABC59390FA72A454204A8B /* GXHUserDefaults-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBD259FA4847CFFCDF88EC58A5586C83 /* GXHUserDefaults-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F197404374FF1168AC974568D26DA7C3 /* Pods-GXHUserDefaults_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F960568D48D699A420F308C8F0F682 /* Pods-GXHUserDefaults_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA6DC64BE6800194176304E870712CB4 /* Pods-GXHUserDefaults_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54612B03451FF9586E78CCE209CA40E4 /* Pods-GXHUserDefaults_Example-dummy.m */; };
 		FCFAB45409A6A0BCFFCAAE09BB6D1FE2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9AD02E9CEE9B012A246B3874CF4587 /* CoreGraphics.framework */; };
@@ -30,30 +30,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BF2556864AD75E7FE52BE8073F2732C /* GXHUserDefaults-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GXHUserDefaults-prefix.pch"; sourceTree = "<group>"; };
 		1342CD3AF4FCCDCA3B66854959CDA657 /* Pods-GXHUserDefaults_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GXHUserDefaults_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1CE8FAC8D3F3CF969587AC4C0A04DD0B /* Pods_GXHUserDefaults_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GXHUserDefaults_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B487B9EB0D1B9D77653B6EC469934A /* GXHUserDefaults-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GXHUserDefaults-prefix.pch"; sourceTree = "<group>"; };
+		1CE8FAC8D3F3CF969587AC4C0A04DD0B /* Pods_GXHUserDefaults_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GXHUserDefaults_Example.framework; path = "Pods-GXHUserDefaults_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20ED43DE9372C92F1ED73F6D5D237636 /* Pods-GXHUserDefaults_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GXHUserDefaults_Example-resources.sh"; sourceTree = "<group>"; };
-		22870BF2353BE95060CAAAABCBDF4A7D /* GXHUserDefaults.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GXHUserDefaults.xcconfig; sourceTree = "<group>"; };
-		35FC43627A18200C38FD405AD461A417 /* GXHUserDefaults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GXHUserDefaults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		48430C0F3E25C3A1E69358DFAB74DC67 /* GXHUserDefaults-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GXHUserDefaults-umbrella.h"; sourceTree = "<group>"; };
-		4BA79AF3D82FD5AF6C24C871F9F2CC00 /* GXHUserDefaults.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GXHUserDefaults.modulemap; sourceTree = "<group>"; };
+		35FC43627A18200C38FD405AD461A417 /* GXHUserDefaults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GXHUserDefaults.framework; path = GXHUserDefaults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A7C3C52B31F1E072D0A29AD108B423D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C5D91F13288B72D0D5EA8BC5E8F196D /* GXHUserDefaults-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GXHUserDefaults-dummy.m"; sourceTree = "<group>"; };
 		4C966E3386611A47EE3BB1F63D79CCFC /* Pods-GXHUserDefaults_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GXHUserDefaults_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4D6269D101815015F7EF0CA639A4AFDF /* GXHUserDefaults.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GXHUserDefaults.modulemap; sourceTree = "<group>"; };
 		4D9AD02E9CEE9B012A246B3874CF4587 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		4ECC554FB604B90732FB0496C365F3C4 /* GXHUserDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GXHUserDefaults.h; sourceTree = "<group>"; };
 		54612B03451FF9586E78CCE209CA40E4 /* Pods-GXHUserDefaults_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GXHUserDefaults_Example-dummy.m"; sourceTree = "<group>"; };
 		54F960568D48D699A420F308C8F0F682 /* Pods-GXHUserDefaults_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GXHUserDefaults_Example-umbrella.h"; sourceTree = "<group>"; };
 		695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		730648AE1088DCB9749379FE14E80C19 /* GXHUserDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GXHUserDefaults.h; path = GXHUserDefaults/Classes/GXHUserDefaults.h; sourceTree = "<group>"; };
 		7541A850A2B80D1F164572791FFE1928 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78AE478868ACFB5312D729065F789286 /* GXHUserDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GXHUserDefaults.m; path = GXHUserDefaults/Classes/GXHUserDefaults.m; sourceTree = "<group>"; };
 		792165F2CA033667D6F57205316D40A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		89E1BB5D857F0B45DB8E959193AD1BFA /* Pods-GXHUserDefaults_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GXHUserDefaults_Example.modulemap"; sourceTree = "<group>"; };
+		89E1BB5D857F0B45DB8E959193AD1BFA /* Pods-GXHUserDefaults_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GXHUserDefaults_Example.modulemap"; sourceTree = "<group>"; };
 		8D509D06C78708921ADF5529EAD15179 /* Pods-GXHUserDefaults_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GXHUserDefaults_Example.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9936F3081D588350F82713B82DE71ACD /* GXHUserDefaults-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GXHUserDefaults-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C6F271D1C9CED3ABEE754A02CE4E7E3D /* Pods-GXHUserDefaults_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GXHUserDefaults_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CC2978D564BC44681002C03BBF498697 /* Pods-GXHUserDefaults_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GXHUserDefaults_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D634FAA503DDB89114C2ED39E46B78D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FFBB77F070F18A5762D8697193846DCB /* GXHUserDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GXHUserDefaults.m; sourceTree = "<group>"; };
+		E6D0C4D0813D4BA3B29F527D375E3911 /* GXHUserDefaults.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GXHUserDefaults.xcconfig; sourceTree = "<group>"; };
+		FBD259FA4847CFFCDF88EC58A5586C83 /* GXHUserDefaults-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GXHUserDefaults-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,14 +104,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		24306D00542D35BD0B2E2F5919626E2A /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BC21EF8A2A9CA94FD9CAB3340523E512 /* GXHUserDefaults */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		2D185E38271E1279D6AC3E7A00CAF9BA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,46 +122,40 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4707D04CC9BBA886301782619A3777CE /* Support Files */ = {
+		493FA06EAB2C307E68D442D9C9D79F50 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4BA79AF3D82FD5AF6C24C871F9F2CC00 /* GXHUserDefaults.modulemap */,
-				22870BF2353BE95060CAAAABCBDF4A7D /* GXHUserDefaults.xcconfig */,
-				9936F3081D588350F82713B82DE71ACD /* GXHUserDefaults-dummy.m */,
-				0BF2556864AD75E7FE52BE8073F2732C /* GXHUserDefaults-prefix.pch */,
-				48430C0F3E25C3A1E69358DFAB74DC67 /* GXHUserDefaults-umbrella.h */,
-				D634FAA503DDB89114C2ED39E46B78D4 /* Info.plist */,
+				4D6269D101815015F7EF0CA639A4AFDF /* GXHUserDefaults.modulemap */,
+				E6D0C4D0813D4BA3B29F527D375E3911 /* GXHUserDefaults.xcconfig */,
+				4C5D91F13288B72D0D5EA8BC5E8F196D /* GXHUserDefaults-dummy.m */,
+				13B487B9EB0D1B9D77653B6EC469934A /* GXHUserDefaults-prefix.pch */,
+				FBD259FA4847CFFCDF88EC58A5586C83 /* GXHUserDefaults-umbrella.h */,
+				4A7C3C52B31F1E072D0A29AD108B423D /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GXHUserDefaults";
+			path = "../Target Support Files/GXHUserDefaults";
 			sourceTree = "<group>";
 		};
-		7D05D11EA5C7760A1CEEE77C8D10872D /* Classes */ = {
+		769CA3FC896961605640D1E0E6D19216 /* GXHUserDefaults */ = {
 			isa = PBXGroup;
 			children = (
-				4ECC554FB604B90732FB0496C365F3C4 /* GXHUserDefaults.h */,
-				FFBB77F070F18A5762D8697193846DCB /* GXHUserDefaults.m */,
+				730648AE1088DCB9749379FE14E80C19 /* GXHUserDefaults.h */,
+				78AE478868ACFB5312D729065F789286 /* GXHUserDefaults.m */,
+				493FA06EAB2C307E68D442D9C9D79F50 /* Support Files */,
 			);
-			path = Classes;
+			name = GXHUserDefaults;
+			path = GXHUserDefaults;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				24306D00542D35BD0B2E2F5919626E2A /* Development Pods */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				C1EBC9B2526F8EDA32F369B158F0C735 /* Pods */,
 				BA792D0E17CBFEFE224790936BC931F2 /* Products */,
 				423A5464BEFC91D6D241C3520C594859 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		AEB8A822A8F46AB2A98FDDE775A248D1 /* GXHUserDefaults */ = {
-			isa = PBXGroup;
-			children = (
-				7D05D11EA5C7760A1CEEE77C8D10872D /* Classes */,
-			);
-			path = GXHUserDefaults;
 			sourceTree = "<group>";
 		};
 		BA792D0E17CBFEFE224790936BC931F2 /* Products */ = {
@@ -181,25 +167,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BC21EF8A2A9CA94FD9CAB3340523E512 /* GXHUserDefaults */ = {
+		C1EBC9B2526F8EDA32F369B158F0C735 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AEB8A822A8F46AB2A98FDDE775A248D1 /* GXHUserDefaults */,
-				4707D04CC9BBA886301782619A3777CE /* Support Files */,
+				769CA3FC896961605640D1E0E6D19216 /* GXHUserDefaults */,
 			);
-			name = GXHUserDefaults;
-			path = ../..;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		442ABDF3CA77AD96CE6D6FB9C8C31DD5 /* Headers */ = {
+		4F6FA2369E0D26D8899BA3C5552A8880 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58E22608D0CC78873CDBE97A5AA58FAC /* GXHUserDefaults-umbrella.h in Headers */,
-				6869E47B7E31A415871DE4D5DF1F2841 /* GXHUserDefaults.h in Headers */,
+				E14C3D2F63ABC59390FA72A454204A8B /* GXHUserDefaults-umbrella.h in Headers */,
+				27B0F14B8E9FEC79FD81C7DF379DEAC3 /* GXHUserDefaults.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,9 +202,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B4D9E012E83D0FCDE3A77AAFCD1BACC /* Build configuration list for PBXNativeTarget "GXHUserDefaults" */;
 			buildPhases = (
-				A1A84A50B6511FBEF72CC73835C07EDB /* Sources */,
+				94D67DECF88516610E1D68A00842FB82 /* Sources */,
 				18132F64421509E968171CF978ED14C6 /* Frameworks */,
-				442ABDF3CA77AD96CE6D6FB9C8C31DD5 /* Headers */,
+				4F6FA2369E0D26D8899BA3C5552A8880 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -277,12 +261,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A1A84A50B6511FBEF72CC73835C07EDB /* Sources */ = {
+		94D67DECF88516610E1D68A00842FB82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98DFA321984E705F07E26E42434335E7 /* GXHUserDefaults-dummy.m in Sources */,
-				821A2BCD78DF3514EC20030DFB1C3020 /* GXHUserDefaults.m in Sources */,
+				CF88AE5E5DB507853FC254E16A513A6B /* GXHUserDefaults-dummy.m in Sources */,
+				8139AEA02494FABEC54659A98CA98C0E /* GXHUserDefaults.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +327,7 @@
 		};
 		5CC8131C4CA4D7EE17ECA34859D30679 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22870BF2353BE95060CAAAABCBDF4A7D /* GXHUserDefaults.xcconfig */;
+			baseConfigurationReference = E6D0C4D0813D4BA3B29F527D375E3911 /* GXHUserDefaults.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -359,7 +343,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/GXHUserDefaults/GXHUserDefaults-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/GXHUserDefaults/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GXHUserDefaults/GXHUserDefaults.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -414,7 +398,7 @@
 		};
 		860347A74A6476C21703F13A917FF1AE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22870BF2353BE95060CAAAABCBDF4A7D /* GXHUserDefaults.xcconfig */;
+			baseConfigurationReference = E6D0C4D0813D4BA3B29F527D375E3911 /* GXHUserDefaults.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -430,7 +414,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/GXHUserDefaults/GXHUserDefaults-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/GXHUserDefaults/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GXHUserDefaults/GXHUserDefaults.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
