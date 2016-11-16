@@ -344,7 +344,7 @@ void gxh_boolSetter(GXHUserDefaults *self, SEL _cmd, bool value) {
 
 unsigned int gxh_integerGetter(GXHUserDefaults *self, SEL _cmd) {
     NSString *key  = [self getKeyWithSEL:_cmd];
-    return [[currentUserDefaults objectForKey:key] integerValue];
+    return [[currentUserDefaults objectForKey:key] intValue];
 }
 
 void gxh_integerSetter(GXHUserDefaults *self, SEL _cmd, unsigned int value) {
