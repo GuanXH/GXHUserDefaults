@@ -5,8 +5,7 @@
 //  Created by guanxuhang1234 on 16/11/14.
 //  Copyright © 2016年 guanxuhang1234. All rights reserved.
 //
-
-#import <GXHUserDefaults/GXHUserDefaults.h>
+#import "GXHUserDefaults.h"
 
 @interface GXHUserDefaults (appSetting)
 @property (nonatomic,copy) NSString * userName;
